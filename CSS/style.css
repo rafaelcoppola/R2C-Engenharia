@@ -1,0 +1,111 @@
+@import "./reset.css";
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: calc(1rem * 1.5);
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+h1 {
+    color: black;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: 10rem;
+}
+h3 {
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.50rem;
+    text-align: center;
+    font-weight: 600;    
+}
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.container-hero {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 0 auto;
+    height: 100vh;
+}
+.hero {
+    background-image: url("../Imagens/Background.png");
+    background-size: cover;
+}
+.header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 1050px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.links > a {
+    color: #323A45;
+    background-color:#00AFD1;
+    border: none;
+    border-radius: 50px;
+    padding: 3px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.description {
+    color: black;
+    width: 60%;
+    margin: 3rem auto;
+}
+.content {
+    text-align: center;
+}
+.contact-button {
+    margin-top: 70px;
+    background-color: #00AFD1;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.contact-button > a {
+    color: #323A45;
+    font-weight: 700;
+}
+.middle {
+    background-image: url("../Imagens/pexels-matej-716661.jpg");
+    padding: 100px 0;
+    background-size: cover;
+}
+.about-text {
+    background-color: #00aed1;
+    box-shadow: 9px -8px 7px 2px rgb(0 0 0 / 25%);
+    width: 60%;
+    margin: 3rem auto;
+    padding: 30px;
+}
+.about-text p {
+    color: black;
+}
