@@ -95,7 +95,7 @@ h5 {
     font-weight: 700;
 }
 .middle {
-    background-image: url("../Imagens/pexels-matej-716661.jpg");
+    background-image: url("../Imagens/pexels-sasha-prasastika-3780477.jpg");
     padding: 100px 0;
     background-size: cover;
 }
@@ -108,4 +108,58 @@ h5 {
 }
 .about-text p {
     color: black;
+}
+.services {
+    margin-top: 100px;
+}
+.container-services {
+    margin-top: 100px;
+}
+.service1 {
+    display: flex;
+    align-items: center;
+}
+.image img {
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 4px -4px 7px 2px rgb(0 0 0 / 25%);
+}
+.text {
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 700;   
+}
+.service-3d {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 20px;
+}
+.image-3d img {
+    width: 250px;
+     border-radius: 30px;
+    box-shadow: 4px -4px 7px 2px rgb(0 0 0 / 25%);
+}
+.text-3d {
+    width: 300px;
+    margin-right: 20px;
+    text-align: right;
+    font-weight: 700;
+}
+.service-mounting {
+    display: flex;
+    align-items: center;
+}
+.image-mounting img {
+    width: 250px;
+    border-radius: 30px;
+    box-shadow: 4px -4px 7px 2px rgb(0 0 0 / 25%);
+}
+.text-mounting {
+    width: 300px;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 700;   
 }
