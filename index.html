@@ -10,30 +10,28 @@
 <body>
     <section class="hero">
         <div class="container-hero">
-            <nav class="header">
-                <img src="./Imagens/logo.jpg" alt="logo">
+            <nav class="header">                
                 <div class="links">
                     <a href="#">Home</a>
-                    <a href="#">Serviços</a>
-                    <a href="#">Quem Somos</a>
-                    <a href="#">Diferenciais</a>
-                    <a href="#">Contato</a>
+                    <a href="#habilite-gzip">Sobre</a>
+                    <a href="#habilite-gzip1">Serviços</a>                    
+                    <a href="#habilite-gzip2">Contato</a>
                 </div>                
             </nav>
-            <div>
-                <h1>R2C Engenharia</h1>
+            <div class="img-description">
+                <h1><img src="./Imagens/Logo.png" alt="R2C-Engenharia"></h1>
                 <div class="description">
-                   <h5> Lorem ipsum sit amet, consetetur sadepising elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquayam erat, sed diam voluptua. At vero</h5>
+                   <h5>Lorem ipsum sit amet, consetetur sadepising elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquayam erat, sed diam voluptua. At vero</h5>
                 </div>
             </div>
             <div class="content">
                 <div class="contact-button">
-                    <a href="#">Entre em Contato</a>
+                    <a href="#habilite-gzip2">Entre em Contato</a>
                 </div>
             </div>
         </div>   
     </section>
-    <section class="middle">
+    <section class="middle" id="habilite-gzip">
         <div class="container">
             <div>
                 <h3>SOBRE</h3>
@@ -44,7 +42,7 @@
                 </div>
             </div>
             <div class="services">
-                <h3>SERVIÇOS</h3>
+                <h3 id="habilite-gzip1">SERVIÇOS</h3>
             </div>
             <div class="container-services">
                 <div class="service1">
@@ -58,7 +56,7 @@
                 </div>
                 <div class="service-3d">
                     <div class="image-3d">
-                        <img src="./Imagens/service1.png" alt="">  
+                        <img src="./Imagens/service2.png" alt="">  
                     </div>
                     <div class="text-3d">
                         <h4>Lorem ipsum</h4>
@@ -67,7 +65,7 @@
                 </div>
                 <div class="service-mounting">
                     <div class="image-mounting">
-                        <img src="./Imagens/service1.png" alt="">  
+                        <img src="./Imagens/service3.png" alt="">  
                     </div>
                     <div class="text-mounting">
                         <h4>Lorem ipsum</h4>
@@ -77,5 +75,45 @@
             </div>
         </div>
     </section>
+    <section  class="footer" id="habilite-gzip2">
+        <div class="container-footer">
+            <div class="content-footer">
+                <div class="contacts-container">
+                    <div class="brands">
+                        <img class="r2clogo" src="./Imagens/Logo.png" alt="R2C-Engenharia">
+                    </div>
+                    <div class="contacts">
+                        <div class="contacts-addresses">
+                            <img class="contact-icons" src="./Imagens/mail.svg" alt="Email">
+                            <span>loremipsum@dolorsit.amet</span>
+                        </div>
+                        <div>|</div>
+                        <div class="contacts-addresses">
+                            <img class="contact-icons" src="./Imagens/phone.svg" alt="Phone">
+                            <span>(00)00000-0000</span>
+                        </div>
+                    </div>    
+                    <div class="contacts-addresses">
+                        <img class="contact-icons" src="./Imagens/local.svg" alt="Local">
+                        <span>R:Lorem ipsum dolor sit amet, nº00 - Bairro: Lorem ipsum, Poços de Caldas - Mg 37701-000</span>
+                    </div>
+                    <div class="contact-paragraph">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod ternpor invidunt ut labore et dolore magna . liquyam erat, sed diam voluptua. At vero eos et accusam et justo duo.</p>
+                    </div>                    
+                </div>
+                <form class="formulario" action="rafael-coppola@hotmail.com" method="post">
+                    <div class="form-container">
+                        <input type="text" name="nome" id="firstname" placeholder="Nome">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="text" name="assunto" id="subject-matter" placeholder="Assunto">
+                        <textarea id="message" name="menssagem" placeholder="Mensagem"></textarea>
+                    </div>
+                    <input type="submit" id="send" value="Enviar Mensagem">
+                </form>
+            </div>
+        </div>
+    </section>
+
 </body>
+<script src="script.js"></script>
 </html>

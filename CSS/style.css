@@ -7,22 +7,33 @@ body {
     margin: 0;
     padding: 0;
     line-height: calc(1rem * 1.5);
+    background-image: url("../Imagens/Bg.png");
+    background-size: cover;
+    background-attachment:fixed;
 }
-a {
-    text-decoration: none;
+p {
+    margin-bottom: 0.9rem;
+}
+span {
     color: white;
-    font-size: 1.5rem;
 }
 h1 {
-    color: black;
-    font-size: 4rem;
-    font-weight: 800;
     text-align: center;
-    line-height: 10rem;
+}
+h1 img{
+    background-color: rgba(255, 255, 255, 0.521);
+    width: 45vh;
+    border-radius: 25px;
+    padding: 10px;
 }
 h3 {
     color: black;
     font-weight: 700;
+    font-size: 2rem;
+}
+h4 {
+    color: black;
+    font-weight: 800;
     font-size: 1.5rem;
 }
 h5 {
@@ -30,9 +41,27 @@ h5 {
     text-align: center;
     font-weight: 600;    
 }
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 1.5rem;
+}
+input {
+    margin-bottom: 30px;
+    height: 5vh;
+}
 .container {
     max-width: 1050px;
     margin: 0 auto;
+}
+::placeholder {
+    color: #323A45;
+    padding: 12px;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1.5rem;
+}
+textarea {
+    height: 100px;
 }
 .container-hero {    
     display: flex;
@@ -42,14 +71,10 @@ h5 {
     margin: 0 auto;
     height: 100vh;
 }
-.hero {
-    background-image: url("../Imagens/Background.png");
-    background-size: cover;
-}
 .header {
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     padding-top: 30px;
     width: 1050px;
@@ -62,25 +87,36 @@ h5 {
 }
 .links > a {
     color: #323A45;
-    background-color:#00AFD1;
+    background-color:#F27935;
     border: none;
     border-radius: 50px;
-    padding: 3px;
+    padding: 4px;
     text-align: center;
     display: inline-block;
     margin-left: 2rem;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+.links > a:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.img-description {
+    display: block;
 }
 .description {
-    color: black;
+    color: white;
     width: 60%;
     margin: 3rem auto;
 }
 .content {
     text-align: center;
 }
-.contact-button {
+.contact-button > a {
     margin-top: 70px;
     background-color: #00AFD1;
     border: none;
@@ -89,13 +125,18 @@ h5 {
     text-align: center;
     display: inline-block;
     margin-bottom: 40px;
-}
-.contact-button > a {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
     color: #323A45;
     font-weight: 700;
 }
+.contact-button > a:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
 .middle {
-    background-image: url("../Imagens/pexels-sasha-prasastika-3780477.jpg");
     padding: 100px 0;
     background-size: cover;
 }
@@ -107,7 +148,8 @@ h5 {
     padding: 30px;
 }
 .about-text p {
-    color: black;
+    color: white;
+    font-weight: 700;     
 }
 .services {
     margin-top: 100px;
@@ -125,11 +167,11 @@ h5 {
     box-shadow: 4px -4px 7px 2px rgb(0 0 0 / 25%);
 }
 .text {
-    border-radius: 10px;
+    color:whitesmoke;
     width: 300px;
     margin-left: 20px;
-    text-align: left;
-    font-weight: 700;   
+    text-align: center;
+    font-weight: 700;
 }
 .service-3d {
     display: flex;
@@ -140,12 +182,13 @@ h5 {
 .image-3d img {
     width: 250px;
      border-radius: 30px;
-    box-shadow: 4px -4px 7px 2px rgb(0 0 0 / 25%);
+    box-shadow: -4px -4px 7px 2px rgb(0 0 0 / 25%);
 }
 .text-3d {
+    color: whitesmoke;
     width: 300px;
     margin-right: 20px;
-    text-align: right;
+    text-align: center;
     font-weight: 700;
 }
 .service-mounting {
@@ -158,8 +201,79 @@ h5 {
     box-shadow: 4px -4px 7px 2px rgb(0 0 0 / 25%);
 }
 .text-mounting {
+    color: whitesmoke;
     width: 300px;
     margin-left: 20px;
-    text-align: left;
-    font-weight: 700;   
+    text-align: center;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #00aed1;
+    padding: 50px 0;
+}
+.container-footer {
+    background-color: #323A45;
+}
+.content-footer {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    margin: 50px 0;
+}
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r2clogo {
+    width: 15vh;
+    background-color: rgba(255, 255, 255, 0.521);    
+    border-radius: 25px;
+    padding: 10px;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.contact-icons {
+    margin-right: 20px;
+}
+.contacts-addresses {
+    display: flex;
+    flex-direction: row;
+}
+.contact-paragraph p{
+    font-weight: 700;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 0;
+    width: 40%;
+    background-color: #F27935;
+    padding: 20px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+#send {
+    margin-top: 40px;
+    background-color: #00aed1;
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: 700;
+    color: #323A45;
+    border: none;
 }
