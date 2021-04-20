@@ -21,7 +21,7 @@ h1 {
     text-align: center;
 }
 h1 img{
-    background-color: rgba(255, 255, 255, 0.521);
+    background-color: rgba(255, 255, 255, 0.212);
     width: 45vh;
     border-radius: 25px;
     padding: 10px;
@@ -86,7 +86,7 @@ textarea {
     align-items: center;
 }
 .links > a {
-    color: #323A45;
+    color: black;
     background-color:#F27935;
     border: none;
     border-radius: 50px;
@@ -129,7 +129,7 @@ textarea {
     transform: scale(1);
     -webkit-transition: .2s ease-in-out;
     transition: .2s ease-in-out;
-    color: #323A45;
+    color: black;
     font-weight: 700;
 }
 .contact-button > a:hover {
@@ -148,7 +148,7 @@ textarea {
     padding: 30px;
 }
 .about-text p {
-    color: white;
+    color: black;
     font-weight: 700;     
 }
 .services {
@@ -160,15 +160,18 @@ textarea {
 .service1 {
     display: flex;
     align-items: center;
+    background-color: #00aed1;
+    border-radius: 30px;
 }
 .image img {
     width: 250px;
     border-radius: 30px;
     box-shadow: 4px -4px 7px 2px rgb(0 0 0 / 25%);
+    margin-bottom: -6px;
 }
 .text {
-    color:whitesmoke;
-    width: 300px;
+    color:black;
+    margin-left: 20px;
     margin-left: 20px;
     text-align: center;
     font-weight: 700;
@@ -178,36 +181,42 @@ textarea {
     flex-direction: row-reverse;
     align-items: center;
     margin-top: 20px;
+    background-color: #1FBBA6;
+    border-radius: 30px;    
 }
 .image-3d img {
     width: 250px;
-     border-radius: 30px;
+    border-radius: 30px;
     box-shadow: -4px -4px 7px 2px rgb(0 0 0 / 25%);
+    margin-bottom: -6px;
 }
 .text-3d {
-    color: whitesmoke;
-    width: 300px;
+    color: black;
     margin-right: 20px;
+    margin-left: 20px;
     text-align: center;
     font-weight: 700;
 }
 .service-mounting {
     display: flex;
     align-items: center;
+    background-color: #00aed1;
+    border-radius: 30px;
+    margin-top: 20px;
 }
 .image-mounting img {
     width: 250px;
     border-radius: 30px;
     box-shadow: 4px -4px 7px 2px rgb(0 0 0 / 25%);
+    margin-bottom: -6px;
 }
 .text-mounting {
-    color: whitesmoke;
-    width: 300px;
+    color: black;
+    margin-left: 20px;
     margin-left: 20px;
     text-align: center;
     font-weight: 700;
 }
-
 .footer {
     background-color: #00aed1;
     padding: 50px 0;
@@ -236,7 +245,7 @@ textarea {
 }
 .r2clogo {
     width: 15vh;
-    background-color: rgba(255, 255, 255, 0.521);    
+    background-color:  rgb(255, 255, 255);    
     border-radius: 25px;
     padding: 10px;
 }
