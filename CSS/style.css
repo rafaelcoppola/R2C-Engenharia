@@ -17,6 +17,14 @@ p {
 span {
     color: white;
 }
+strong {
+    font-weight: 700;
+}
+mark {
+	color: #efe60b;
+	font-weight: 700;
+	background-color: transparent;
+}
 h1 {
     text-align: center;
 }
@@ -39,12 +47,10 @@ h4 {
 h5 {
     font-size: 1.50rem;
     text-align: center;
-    font-weight: 600;    
-}
-a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.664);
-    font-size: 1.5rem;
+    font-weight: 600;
+    border: dashed #323A45;
+    border-radius: 30px;
+    padding: 20px;    
 }
 input {
     margin-bottom: 30px;
@@ -86,6 +92,9 @@ textarea {
     align-items: center;
 }
 .links > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 1.5rem;
     color: black;
     background-color:#F27935;
     border: none;
@@ -117,6 +126,9 @@ textarea {
     text-align: center;
 }
 .contact-button > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 1.5rem;
     margin-top: 70px;
     background-color: #00AFD1;
     border: none;
@@ -149,7 +161,7 @@ textarea {
 }
 .about-text p {
     color: black;
-    font-weight: 700;     
+    font-size: 17px;        
 }
 .services {
     margin-top: 100px;
@@ -171,10 +183,10 @@ textarea {
 }
 .text {
     color:black;
-    margin-left: 20px;
+    margin-right: 20px;
     margin-left: 20px;
     text-align: center;
-    font-weight: 700;
+    font-size: 17px;
 }
 .service-3d {
     display: flex;
@@ -195,7 +207,7 @@ textarea {
     margin-right: 20px;
     margin-left: 20px;
     text-align: center;
-    font-weight: 700;
+    font-size: 17px;
 }
 .service-mounting {
     display: flex;
@@ -212,17 +224,17 @@ textarea {
 }
 .text-mounting {
     color: black;
-    margin-left: 20px;
+    margin-right: 20px;
     margin-left: 20px;
     text-align: center;
-    font-weight: 700;
+    font-size: 17px;
 }
 .footer {
     background-color: #00aed1;
     padding: 50px 0;
 }
 .container-footer {
-    background-color: #323A45;
+    background-color: #323a45;
 }
 .content-footer {
     max-width: 1050px;
@@ -257,12 +269,16 @@ textarea {
 .contact-icons {
     margin-right: 20px;
 }
-.contacts-addresses {
+.contacts-addresses a{
     display: flex;
     flex-direction: row;
 }
-.contact-paragraph p{
+.contact-paragraph p {
+    background-color: white;
     font-weight: 700;
+    border: 2px dashed;
+    padding: 10px;
+    border-radius: 15px;
 }
 form {
     display: flex;
@@ -283,6 +299,6 @@ form {
     padding: 15px 32px;
     text-align: center;
     font-weight: 700;
-    color: #323A45;
+    color: black;
     border: none;
 }
