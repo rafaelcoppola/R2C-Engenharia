@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="CSS/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>    
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick-theme.scss" media="screen"> 
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css" media="screen">
     <title>R2C Engenharia</title>
 </head>
 <body>
@@ -14,21 +18,40 @@
                 <div class="links">
                     <a href="#Home">Home</a>
                     <a href="#Sobre">Sobre</a>
-                    <a href="#Serviços">Serviços</a>                    
+                    <a href="#Serviços">Serviços</a>
+                    <a href="#Segurança">Segurança</a>                     
                     <a href="#EntreEmContato">Contato</a>
                 </div>                
             </nav>
-            <div class="img-description">
-                <h1><img src="./Imagens/Logo.png" alt="R2C-Engenharia"></h1>
-                <div class="description">
-                   <h5><mark>Elaboração de projetos de adequação para NRs 12 e 35.</mark> <br><br>Aliando a qualidade dos nossos serviços, nossa experiência e os conceitos de engenharia moderna, oferecemos a solução mais completa qua a sua empresa pode precisar.</h5>
+            <div class="container-slider">
+                <div class="carousel">
+                    <figure class="itens">
+                        <img clas="image-itens" style=" background-image: url(./Imagens/ProjetosMaquinas.png); background-repeat: no-repeat; background-size: cover; background-position: center; border: none;" alt="">
+                        <figcaption class="text-itens"><h5><mark>Projetos de Maquinas</mark></h5></figcaption>
+                    </figure>
+                    <figure class="itens">
+                        <img clas="image-itens" style=" background-image: url(./Imagens/GestaoProjetos.png); background-repeat: no-repeat; background-size: cover; background-position: center;"  alt="">
+                        <figcaption class="text-itens"><h5><mark>Gestão de Projetos</mark></h5></figcaption>
+                    </figure>
+                    <figure class="itens">
+                        <img clas="image-itens" style=" background-image: url(./Imagens/GestaoManutençao.png); background-repeat: no-repeat; background-size: cover; background-position: center;" alt="">
+                        <figcaption class="text-itens"><h5><mark>Gestão de manutençao</mark></h5></figcaption>
+                    </figure>
+                    <figure class="itens">
+                        <img clas="image-itens" style=" background-image: url(./Imagens/Segurança.png); background-repeat: no-repeat; background-size: cover; background-position: center;" alt="">
+                        <figcaption class="text-itens"><h5><mark>Segurança no trabalho</mark></h5></figcaption>
+                    </figure>
+                    <figure class="itens">
+                        <img clas="image-itens" style=" background-image: url(./Imagens/MontagemIndustrial.png); background-repeat: no-repeat; background-size: cover; background-position: center;" alt="">
+                        <figcaption class="text-itens"><h5><mark>Montagem industrial</mark></h5></figcaption>
+                    </figure>         
+                </div>
+                <div class="slider-control">
+                    <div class="prev"><button type="button"><ion-icon name="arrow-back"><</ion-icon></button></div>
+                    <div class="next"><button type="button"><ion-icon name="arrow-forward">></ion-icon></button></div>
                 </div>
             </div>
-            <div class="content">
-                <div class="contact-button">
-                    <a href="#EntreEmContato">Entre em Contato</a>
-                </div>
-            </div>
+            
         </div>   
     </section>
     <section class="middle" id="Sobre">
@@ -115,7 +138,10 @@
             </div>
         </div>
     </section>
-
+    <script src="./js/jquery.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>    
+    <script src="./slick-1.8.1/slick/slick.js"></script>
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
