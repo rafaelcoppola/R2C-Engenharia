@@ -13,19 +13,10 @@
 }*/
 
 //slide de imagens
-$('.carousel').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-    autoplay: true,
-    autoplayspeed: 2000,
-    centerMode: true,      
-    prevArrow: $('.prev'),
-    nextArrow: $('.next')
-});
-$('.carousel').slick();
-
+$('.carousel').carousel({
+    pause:false,
+    interval: 3000,
+         
+  })
 
       
